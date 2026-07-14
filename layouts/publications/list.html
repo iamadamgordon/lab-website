@@ -2,7 +2,6 @@
 <div class="page-section">
   <div class="container">
     <h1 class="page-title">Publications</h1>
-    <p class="page-lead">For a complete list see <a href="https://scholar.google.com/citations?user=aVheI74AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>. <strong>Bold</strong> indicates Gordon Lab PI.</p>
 
     <!-- In Revision -->
     {{ if hugo.Data.publications.in_revision }}
@@ -10,10 +9,9 @@
     <div class="pub-list">
       {{ range hugo.Data.publications.in_revision }}
       <div class="pub-item">
-        <p class="pub-year-badge">{{ .year }}{{ if .journal }} &middot; {{ .journal }}{{ end }}</p>
+        <p class="pub-year-badge">{{ .year }}</p>
         <p class="pub-title pub-revision-tag">{{ .title }}</p>
         <p class="pub-authors">{{ .authors | safeHTML }}</p>
-        {{ if .journal_full }}<p class="pub-journal">{{ .journal_full }}{{ if .note }} &mdash; {{ .note }}{{ end }}</p>{{ end }}
         {{ if .abstract }}<p class="pub-abstract">{{ .abstract }}</p>{{ end }}
         <div class="pub-actions">
           {{ if .preprint }}<a href="{{ .preprint }}" class="pub-link primary" target="_blank" rel="noopener">Preprint</a>{{ end }}
@@ -30,7 +28,7 @@
       {{ range hugo.Data.publications.published }}
       <div class="pub-item">
         <p class="pub-year-badge">{{ .year }} &middot; {{ .journal }}</p>
-        <p class="pub-title{{ if .first_author }} pub-first-author{{ end }}">{{ .title }}</p>
+        <p class="pub-title">{{ .title }}</p>
         <p class="pub-authors">{{ .authors | safeHTML }}</p>
         {{ if .abstract }}<p class="pub-abstract">{{ .abstract }}</p>{{ end }}
         {{ if .figures }}
@@ -42,11 +40,14 @@
         {{ end }}
         <div class="pub-actions">
           {{ if .pdf }}<a href="{{ .pdf }}" class="pub-link primary" target="_blank" rel="noopener">Download PDF</a>{{ end }}
+          {{ if .url }}<a href="{{ .url }}" class="pub-link primary" target="_blank" rel="noopener">View Paper</a>{{ end }}
           {{ if .doi }}<a href="https://doi.org/{{ .doi }}" class="pub-link" target="_blank" rel="noopener">DOI</a>{{ end }}
         </div>
       </div>
       {{ end }}
     </div>
+
+    <p class="pub-scholar-link">For a complete list see <a href="https://scholar.google.com/citations?user=aVheI74AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>.</p>
 
   </div>
 </div>

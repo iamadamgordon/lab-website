@@ -2,26 +2,21 @@ in_revision:
   - title: "Lateral hypothalamic glutamate and GABA neurons cooperatively shape striatum-wide dopamine dynamics during consumption"
     year: 2025
     authors: "<strong>Gordon-Fennell A.</strong>, Benowitz B.M., Barbakh J.M., Montequin I., Campuzano A., Stevenson H., Hjort M.M., Critz M., Ancell E., Witten D.M., Stuber G.D."
-    journal: "Neuron"
-    journal_full: "In revision at Neuron"
-    note: "First author"
     preprint: "https://doi.org/10.1101/2025.04.09.648052"
     abstract: "The lateral hypothalamus (LHA) is a critical hub for motivated behavior, but how GABA and glutamate subpopulations cooperatively regulate dopamine (DA) dynamics across the striatum to shape consumption remains unclear. We used multi-site fiber photometry to map DA release across anterior–posterior striatal subregions during consummatory behavior and determined the causal role of LHA GABA and glutamate neurons in shaping these dynamics."
 
-  - title: "Fabrication and implementation of drug self-administration experiments in head-fixed mice"
-    year: 2025
-    authors: "Doncheck E.M.*, <strong>Gordon-Fennell A.*</strong>, Boquiren J., Manusky L.M., Baek J., Clarke R.E., Paniccia J.E., Grant R.I., Stuber G.D., Otis J.M. (*equal contribution)"
-    journal: "Nature Protocols"
-    journal_full: "In revision at Nature Protocols"
-    preprint: ""
+  - title: "Endogenous Opioid Dynamics in the Dorsal Striatum Shape Neural Activity for Reward-Seeking Behavior"
+    year: 2024
+    authors: "Gowrishankar R., Gray M., Elerding A., Shirley S., Van Tilburg J., Abrera K., Marcus D., <strong>Gordon-Fennell A.</strong>, Zhou Z.C., Dong C., Tian L., Stuber G.D., Bruchas M.R."
+    preprint: "https://www.biorxiv.org/content/10.1101/2024.05.20.595035v1.full"
     abstract: ""
 
 published:
   - title: "Prefrontal to ventral tegmental area dynamics drive contingency degradation"
     year: 2026
-    authors: "Hjort M.M., Garrett Z.Q., Gordon A., Ancell E., Trzeciak T., Lu P., Bruchas M.R., Witten D.M., Steinmetz N.A., Stuber G.D."
+    authors: "Hjort M.M., Garrett Z.Q., <strong>Gordon A.G.</strong>, Ancell E., Trzeciak T., Lu P., Bruchas M.R., Witten D.M., Steinmetz N.A., Stuber G.D."
     journal: "Nature"
-    first_author: false
+    url: "https://www.nature.com/articles/s41586-026-10443-5"
     doi: ""
     abstract: ""
     pdf: ""
@@ -29,9 +24,9 @@ published:
 
   - title: "A cholinergic eligibility trace facilitates amygdala plasticity in flavour avoidance learning"
     year: 2026
-    authors: "Fleming W., Pauli J.L., Ishii K.K., Trzeciak M., Burke C.T., Park S., Gordon A., et al."
+    authors: "Fleming W., Pauli J.L., Ishii K.K., Trzeciak M., Burke C.T., Park S., <strong>Gordon A.G.</strong>, et al."
     journal: "bioRxiv"
-    first_author: false
+    url: "https://www.biorxiv.org/content/10.64898/2026.07.02.734913v1"
     doi: ""
     abstract: ""
     pdf: ""
@@ -41,18 +36,7 @@ published:
     year: 2025
     authors: "Volcko K.L., Gresch A., Benowitz B.M., Taghipourbibalan H., Visser M., Stuber G.D., <strong>Gordon-Fennell A.</strong>, Patriarchi T., McCutcheon J.E."
     journal: "Journal of Neurochemistry"
-    first_author: false
     doi: "10.1111/jnc.70142"
-    abstract: ""
-    pdf: ""
-    figures: []
-
-  - title: "Endogenous Opioid Dynamics in the Dorsal Striatum Shape Neural Activity for Reward-Seeking Behavior"
-    year: 2024
-    authors: "Gowrishankar R., Gray M., Elerding A., Shirley S., Van Tilburg J., Abrera K., Marcus D., <strong>Gordon-Fennell A.</strong>, Zhou Z.C., Dong C., Tian L., Stuber G.D., Bruchas M.R."
-    journal: "Neuropsychopharmacology"
-    first_author: false
-    doi: ""
     abstract: ""
     pdf: ""
     figures: []
@@ -61,7 +45,6 @@ published:
     year: 2024
     authors: "Hjort M.M., Gowrishankar R., Tian L., <strong>Gordon-Fennell A.</strong>, Namboodiri V.M.K., Bruchas M.R., Stuber G.D."
     journal: "Neurophotonics"
-    first_author: false
     doi: "10.1117/1.NPh.11.3.033407"
     abstract: ""
     pdf: ""
@@ -71,7 +54,6 @@ published:
     year: 2023
     authors: "Zhou Z.C., <strong>Gordon-Fennell A.</strong>, Piantadosi S.C., Ji N., Smith S.L., Bruchas M.R., Stuber G.D."
     journal: "Neuron"
-    first_author: false
     doi: "10.1016/j.neuron.2023.09.006"
     abstract: ""
     pdf: ""
@@ -81,7 +63,6 @@ published:
     year: 2023
     authors: "<strong>Gordon-Fennell A.</strong>, Barbakh J.M., Utley M., Singh S., Bazzino P., Gowrishankar R., Bruchas M.R., Roitman M.F., Stuber G.D."
     journal: "eLife"
-    first_author: true
     doi: "10.7554/eLife.86183"
     abstract: "We developed OHRBETS (Open-source Head-fixed Rodent Behavioral and Electrophysiology Testing System), a low-cost, open-source platform for measuring operant and consummatory behaviors in head-fixed mice. OHRBETS enables a range of behavioral paradigms — including instrumental conditioning for sucrose, brief access taste tasks, intracranial self-stimulation, and real-time place preference — while head-fixing animals for compatibility with calcium imaging, fiber photometry, and electrophysiology. Validated across multiple labs and freely available."
     pdf: ""
@@ -91,7 +72,6 @@ published:
     year: 2021
     authors: "<strong>Gordon-Fennell A.</strong>, Stuber G.D."
     journal: "Neuropharmacology"
-    first_author: true
     doi: "10.1016/j.neuropharm.2021.108725"
     abstract: "This review synthesizes the functional roles of subcortical GABA and glutamate neurons in mediating reward and aversive valence. We discuss how opposing inhibitory and excitatory subpopulations in structures including the lateral hypothalamus, ventral tegmental area, and extended amygdala shape motivated behavior, with implications for understanding the neural basis of reinforcement."
     pdf: ""
@@ -101,7 +81,6 @@ published:
     year: 2020
     authors: "<strong>Gordon-Fennell A.</strong>, Gordon-Fennell L., Desaivre S., Marinelli M."
     journal: "Frontiers in Systems Neuroscience"
-    first_author: true
     doi: "10.3389/fnsys.2020.581830"
     abstract: ""
     pdf: ""
@@ -111,38 +90,7 @@ published:
     year: 2020
     authors: "<strong>Gordon-Fennell A.</strong>, Will R., Ramachandra V., Gordon-Fennell L., Dominguez J., Zahm D., Marinelli M."
     journal: "Frontiers in Neuroscience"
-    first_author: true
     doi: "10.3389/fnins.2019.01433"
-    abstract: ""
-    pdf: ""
-    figures: []
-
-  - title: "Dissecting the roles of GABA and neuropeptides from rat central amygdala CRF neurons in anxiety and fear learning"
-    year: 2019
-    authors: "Pomrenze M.B., Giovanetti S.M., Maiya R., Gordon A.G., Kreeger L.J., Messing R.O."
-    journal: "Cell Reports"
-    first_author: false
-    doi: "10.1016/j.celrep.2019.08.083"
-    abstract: ""
-    pdf: ""
-    figures: []
-
-  - title: "Recruitment of Amygdala CRF Neurons Mediates Escalated Alcohol Consumption"
-    year: 2016
-    authors: "Pomrenze M.B., Gordon A., Blasio A., Marinelli M., Messing R.O."
-    journal: "Alcoholism: Clinical and Experimental Research"
-    first_author: false
-    doi: ""
-    abstract: ""
-    pdf: ""
-    figures: []
-
-  - title: "Reversible deactivation of higher-order posterior parietal areas. II. Alterations in response properties of neurons in areas 1 and 2"
-    year: 2014
-    authors: "Goldring A.B., Cooke D.F., Baldwin M.K., Recanzone G.H., Gordon A.G., Pan T., Simon S.I., Krubitzer L."
-    journal: "Journal of Neurophysiology"
-    first_author: false
-    doi: "10.1152/jn.00141.2014"
     abstract: ""
     pdf: ""
     figures: []

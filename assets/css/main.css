@@ -307,6 +307,10 @@ a:hover { color: var(--accent-hover); text-decoration: underline; }
   display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 16px;
 }
 .pub-figure { width: 160px; height: 110px; object-fit: cover; border-radius: 4px; border: 1px solid var(--border); }
+.pub-scholar-link {
+  margin-top: 40px; font-size: .9rem; color: var(--text-muted);
+}
+
 .pub-first-author::after {
   content: "First author"; font-size: .72rem; font-weight: 600;
   background: var(--accent-light); color: var(--accent);
