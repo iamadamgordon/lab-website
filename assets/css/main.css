@@ -250,6 +250,13 @@ a:hover { color: var(--accent-hover); text-decoration: underline; }
 .team-card-name { font-weight: 600; font-size: .95rem; margin-bottom: 4px; }
 .team-card-role { font-size: .83rem; color: var(--text-muted); }
 
+.team-opening {
+  background: var(--bg-alt); border: 1px dashed var(--border);
+  border-radius: var(--r); padding: 20px 24px; margin-bottom: 32px;
+}
+.team-opening p { font-size: .95rem; color: var(--text-muted); }
+.team-opening a { font-weight: 600; }
+
 .openings-box {
   background: var(--accent-light); border: 1px solid var(--accent);
   border-radius: var(--r); padding: 24px 28px;
