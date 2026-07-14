@@ -216,13 +216,13 @@ a:hover { color: var(--accent-hover); text-decoration: underline; }
 /* ── People page ─────────────────────────────────────────────────────── */
 .pi-section { display: grid; grid-template-columns: 200px 1fr; gap: 40px; margin-bottom: 72px; align-items: start; }
 .pi-photo {
-  width: 280px; height: 280px; border-radius: var(--r);
+  width: 340px; height: 340px; border-radius: var(--r);
   object-fit: cover; background: var(--bg-alt);
   border: 1px solid var(--border);
   filter: grayscale(100%);
 }
 .pi-photo-placeholder {
-  width: 280px; height: 280px; border-radius: var(--r);
+  width: 340px; height: 340px; border-radius: var(--r);
   background: var(--bg-alt); border: 1px solid var(--border);
   display: flex; align-items: center; justify-content: center;
   color: var(--text-muted); font-size: .85rem;
