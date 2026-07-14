@@ -3,31 +3,17 @@
   <div class="container">
     <h1 class="page-title">Contact</h1>
 
-    <div class="contact-grid">
-      <div>
-        <div class="contact-item">
-          <p class="contact-label">Email</p>
-          <p class="contact-value"><a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></p>
-        </div>
-        <div class="contact-item">
-          <p class="contact-label">Office</p>
-          <p class="contact-value">Psychology Building, Room 223<br>Busch Campus<br>Rutgers University<br>Piscataway, NJ</p>
-        </div>
-        <div class="contact-item">
-          <p class="contact-label">Google Scholar</p>
-          <p class="contact-value"><a href="{{ .Site.Params.scholar }}" target="_blank" rel="noopener">View publications</a></p>
-        </div>
-      </div>
-      <div>
-        <div class="contact-item">
-          <p class="contact-label">Prospective lab members</p>
-          <p class="contact-value" style="color: var(--text-muted); font-size: .95rem; line-height: 1.7;">Please see the <a href="/join/">Join</a> page for information on applying. When emailing, include your CV and a brief description of your research interests — we read every message.</p>
-        </div>
-        <div class="contact-item">
-          <p class="contact-label">Media &amp; collaboration</p>
-          <p class="contact-value" style="color: var(--text-muted); font-size: .95rem; line-height: 1.7;">For media inquiries or potential collaborations, please email directly. We are always interested in connecting with other researchers working on circuits, reinforcement, or SUD.</p>
-        </div>
-      </div>
+    <div class="contact-item">
+      <p class="contact-label">Email</p>
+      <p class="contact-value"><a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></p>
+    </div>
+    <div class="contact-item">
+      <p class="contact-label">Office</p>
+      <p class="contact-value">Psychology Building<br>Busch Campus<br>Rutgers University<br>Piscataway, NJ</p>
+    </div>
+    <div class="contact-item">
+      <p class="contact-label">Google Scholar</p>
+      <p class="contact-value"><a href="{{ .Site.Params.scholar }}" target="_blank" rel="noopener">View publications</a></p>
     </div>
 
   </div>
