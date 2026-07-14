@@ -6,7 +6,7 @@
     <!-- PI -->
     <div class="pi-section">
       {{ if fileExists "static/images/people/gordon-fennell.jpg" }}
-        <img src="/images/people/gordon-fennell.jpg" alt="Adam Gordon-Fennell" class="pi-photo">
+        <img src="{{ "/images/people/gordon-fennell.jpg" | relURL }}" alt="Adam Gordon-Fennell" class="pi-photo">
       {{ else }}
         <div class="pi-photo-placeholder">Photo coming soon</div>
       {{ end }}
@@ -17,7 +17,7 @@
         <div class="pi-links">
           <a href="mailto:ag3078@psych.rutgers.edu">ag3078@psych.rutgers.edu</a>
           <a href="https://scholar.google.com/citations?user=aVheI74AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
-          <a href="/files/gordon-fennell-cv.pdf" target="_blank">CV (PDF)</a>
+          <a href="{{ "/files/gordon-fennell-cv.pdf" | relURL }}" target="_blank">CV (PDF)</a>
         </div>
       </div>
     </div>
