@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Gordon Lab</title>
+		<link>//localhost:1313/</link>
+		<description>Recent content on Gordon Lab</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 13 Jul 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Gordon Lab opening at Rutgers University</title>
+				<link>//localhost:1313/news/2026-07-13-lab-opening/</link>
+				<pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/news/2026-07-13-lab-opening/</guid>
+				<description>We are excited to announce the Gordon Lab will open in the Department of Psychology at Rutgers University in Fall 2026. We are actively recruiting graduate students, postdocs, and research technicians.</description>
+			</item>
+			<item>
+				<title>NIDA K99/R00 award to support lab research</title>
+				<link>//localhost:1313/news/2024-09-01-nida-k99/</link>
+				<pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/news/2024-09-01-nida-k99/</guid>
+				<description>Adam Gordon-Fennell was awarded a NIDA K99/R00 Pathway to Independence Award (K99DA059612) to study LHA and dopamine circuit mechanisms of positive and negative reinforcement.</description>
+			</item>
+			<item>
+				<title>OHRBETS platform paper published in eLife</title>
+				<link>//localhost:1313/news/2023-04-01-elife-ohrbets/</link>
+				<pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+				<guid>//localhost:1313/news/2023-04-01-elife-ohrbets/</guid>
+				<description>Our paper describing OHRBETS — an open-source platform for head-fixed operant and consummatory behavior — is published in eLife with an &amp;rsquo;exceptional&amp;rsquo; eLife assessment.</description>
+			</item>
+	</channel>
+</rss>

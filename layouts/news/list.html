@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div class="page-section">
+  <div class="container">
+    <h1 class="page-title">News</h1>
+    <div class="news-list">
+      {{ range .Pages }}
+      <div class="news-item">
+        <p class="news-date">{{ .Date.Format "Jan 2006" }}</p>
+        <div>
+          <p class="news-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
+          {{ if .Params.summary }}<p class="news-summary">{{ .Params.summary }}</p>{{ end }}
+          <a href="{{ .RelPermalink }}" class="news-read-more">Read more &rarr;</a>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}

@@ -1,0 +1,62 @@
+{{ define "main" }}
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-inner">
+    <p class="hero-kicker">{{ .Site.Params.department }} &middot; {{ .Site.Params.institution }}</p>
+    <h1>{{ .Site.Title }}</h1>
+    <p class="hero-tagline">{{ .Params.tagline | default "We study the neural circuits that drive reinforcement and motivation, with implications for understanding and treating substance use disorder." }}</p>
+    <div class="hero-ctas">
+      <a href="/research/" class="btn btn-primary">Our Research &rarr;</a>
+      <a href="/join/" class="btn btn-outline">Join the Lab</a>
+    </div>
+  </div>
+</section>
+
+<!-- Research pillars -->
+<section class="pillars-section">
+  <div class="container">
+    <div class="section-header">
+      <h2>What We Study</h2>
+      <p>We use circuit-level approaches to understand the brain mechanisms of reinforcement in health and disease.</p>
+    </div>
+    <div class="pillars-grid">
+      <div class="pillar-card">
+        <p class="pillar-number">01</p>
+        <h3>Reinforcement circuits</h3>
+        <p>We dissect how lateral hypothalamus (LHA) neurons and dopamine (DA) signaling mediate positive and negative reinforcement across the striatum.</p>
+      </div>
+      <div class="pillar-card">
+        <p class="pillar-number">02</p>
+        <h3>Substance use disorder</h3>
+        <p>We study how reinforcement circuits are recruited and transformed during the development and expression of opioid and drug motivation.</p>
+      </div>
+      <div class="pillar-card">
+        <p class="pillar-number">03</p>
+        <h3>Neural imaging &amp; behavior</h3>
+        <p>We combine 2-photon calcium imaging, multi-site fiber photometry, and head-fixed behavioral paradigms to link circuit activity to behavior.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Techniques -->
+<section class="techniques-section">
+  <div class="container">
+    <h2>Techniques</h2>
+    <div class="techniques-list">
+      <span class="technique-tag">2-photon calcium imaging</span>
+      <span class="technique-tag">Multi-site fiber photometry</span>
+      <span class="technique-tag">Optogenetics</span>
+      <span class="technique-tag">Chemogenetics (DREADDs)</span>
+      <span class="technique-tag">Head-fixed behavior</span>
+      <span class="technique-tag">Intravenous self-administration</span>
+      <span class="technique-tag">Holographic optogenetics</span>
+      <span class="technique-tag">Generalized linear models</span>
+      <span class="technique-tag">Machine learning</span>
+      <span class="technique-tag">Open-source hardware</span>
+    </div>
+  </div>
+</section>
+
+{{ end }}

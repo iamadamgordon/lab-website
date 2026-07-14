@@ -1,0 +1,43 @@
+baseURL = "/"
+locale = "en-us"
+title = "Gordon Lab"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[[menus.main]]
+  name = "Research"
+  url = "/research/"
+  weight = 10
+
+[[menus.main]]
+  name = "People"
+  url = "/people/"
+  weight = 20
+
+[[menus.main]]
+  name = "Publications"
+  url = "/publications/"
+  weight = 30
+
+[[menus.main]]
+  name = "News"
+  url = "/news/"
+  weight = 40
+
+[[menus.main]]
+  name = "Join"
+  url = "/join/"
+  weight = 50
+
+[[menus.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 60
+
+[params]
+  description = "The Gordon Lab studies the neural circuits that drive reinforcement and motivation, with implications for understanding substance use disorder."
+  email = "adam.g.gordon@rutgers.edu"
+  institution = "Rutgers University"
+  department = "Department of Psychology"
+  scholar = "https://scholar.google.com/citations?user=aVheI74AAAAJ&hl=en"

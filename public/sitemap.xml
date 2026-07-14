@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2026-07-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/news/2026-07-13-lab-opening/</loc>
+    <lastmod>2026-07-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/news/</loc>
+    <lastmod>2026-07-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/news/2024-09-01-nida-k99/</loc>
+    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/news/2023-04-01-elife-ohrbets/</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/</loc>
+  </url><url>
+    <loc>//localhost:1313/contact/</loc>
+  </url><url>
+    <loc>//localhost:1313/join/</loc>
+  </url><url>
+    <loc>//localhost:1313/people/</loc>
+  </url><url>
+    <loc>//localhost:1313/publications/</loc>
+  </url><url>
+    <loc>//localhost:1313/research/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+  </url>
+</urlset>

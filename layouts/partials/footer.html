@@ -1,0 +1,14 @@
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-left">
+      <strong>Gordon Lab</strong><br>
+      {{ .Site.Params.department }}<br>
+      {{ .Site.Params.institution }}
+    </div>
+    <div class="footer-right">
+      <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
+      <a href="{{ .Site.Params.scholar }}" target="_blank" rel="noopener">Google Scholar</a>
+      <span class="footer-copy">&copy; {{ now.Year }} Gordon Lab</span>
+    </div>
+  </div>
+</footer>

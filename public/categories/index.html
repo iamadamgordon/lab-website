@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="The Gordon Lab studies the neural circuits that drive reinforcement and motivation, with implications for understanding substance use disorder.">
+<title>Categories | Gordon Lab</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="/css/main.min.css">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+</head>
+<body>
+  <nav class="nav" id="site-nav">
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">Gordon Lab</a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      
+      <li><a href="/research/" class="">Research</a></li>
+      
+      <li><a href="/people/" class="">People</a></li>
+      
+      <li><a href="/publications/" class="">Publications</a></li>
+      
+      <li><a href="/news/" class="">News</a></li>
+      
+      <li><a href="/join/" class="">Join</a></li>
+      
+      <li><a href="/contact/" class="">Contact</a></li>
+      
+    </ul>
+  </div>
+</nav>
+<script>
+  const toggle = document.getElementById('nav-toggle');
+  const links = document.getElementById('nav-links');
+  toggle.addEventListener('click', () => {
+    const open = links.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open);
+  });
+  window.addEventListener('scroll', () => {
+    document.getElementById('site-nav').classList.toggle('scrolled', window.scrollY > 10);
+  });
+</script>
+
+  <main class="main-content">
+    
+<div class="page-section">
+  <div class="container">
+    <h1 class="page-title">Categories</h1>
+    <div class="prose">
+      
+    </div>
+  </div>
+</div>
+
+  </main>
+  <footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-left">
+      <strong>Gordon Lab</strong><br>
+      Department of Psychology<br>
+      Rutgers University
+    </div>
+    <div class="footer-right">
+      <a href="mailto:adam.g.gordon@rutgers.edu">adam.g.gordon@rutgers.edu</a>
+      <a href="https://scholar.google.com/citations?user=aVheI74AAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a>
+      <span class="footer-copy">&copy; 2026 Gordon Lab</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
