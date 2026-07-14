@@ -6,7 +6,7 @@
     <!-- PI -->
     <div class="pi-section">
       {{ if fileExists "static/images/people/gordon-fennell.jpg" }}
-        <img src="{{ "/images/people/gordon-fennell.jpg" | relURL }}" alt="Adam Gordon-Fennell" class="pi-photo">
+        <img src="{{ "images/people/gordon-fennell.jpg" | absURL }}" alt="Adam Gordon-Fennell" class="pi-photo">
       {{ else }}
         <div class="pi-photo-placeholder">Photo coming soon</div>
       {{ end }}
@@ -17,25 +17,25 @@
         <div class="pi-links">
           <a href="mailto:ag3078@psych.rutgers.edu">ag3078@psych.rutgers.edu</a>
           <a href="https://scholar.google.com/citations?user=aVheI74AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
-          <a href="{{ "/files/gordon-fennell-cv.pdf" | relURL }}" target="_blank">CV (PDF)</a>
+          <a href="{{ "files/gordon-fennell-cv.pdf" | absURL }}" target="_blank">CV (PDF)</a>
         </div>
       </div>
     </div>
 
     <!-- Openings -->
     <div class="openings-box" style="margin-bottom: 56px;">
-      <p><strong>We are actively recruiting!</strong> The Gordon Lab is looking for motivated graduate students, postdoctoral fellows, and research technicians to join us at Rutgers in Fall 2026. If you are interested in circuit neuroscience, reinforcement, and substance use disorder — <a href="/join/">learn more about joining the lab</a>.</p>
+      <p><strong>We are actively recruiting!</strong> The Gordon Lab is looking for motivated graduate students, postdoctoral fellows, and research technicians to join us at Rutgers in Fall 2026. If you are interested in circuit neuroscience, reinforcement, and substance use disorder — <a href="{{ "join/" | absURL }}">learn more about joining the lab</a>.</p>
     </div>
 
     <!-- Placeholder team -->
     <p class="team-section-title">Graduate Students</p>
     <div class="team-opening">
-      <p>This could be you!<a href="/join/">Learn more about joining the lab &rarr;</a></p>
+      <p>This could be you!<a href="{{ "join/" | absURL }}">Learn more about joining the lab &rarr;</a></p>
     </div>
 
     <p class="team-section-title">Postdoctoral Fellows</p>
     <div class="team-opening">
-      <p>This could be you!<a href="/join/">Learn more about joining the lab &rarr;</a></p>
+      <p>This could be you!<a href="{{ "join/" | absURL }}">Learn more about joining the lab &rarr;</a></p>
     </div>
 
   </div>
